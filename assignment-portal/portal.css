@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap');
+
+body{
+    align-items: center;
+}
+
+header{
+    display: grid;
+    grid-template-columns:210px 1fr ;
+
+}
+
+h1 {
+    font-family: 'Spline Sans', sans-serif;
+    font-size: 60px;
+}
