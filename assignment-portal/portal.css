@@ -1,16 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap');
-
-body{
-    align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+body {
+  margin: auto;
+  width: 50%;
 }
 
-header{
-    display: grid;
-    grid-template-columns:210px 1fr ;
-
+header {
+  display: grid;
+  grid-template-columns: 210px 1fr;
+  margin-top: 100px;
+  background-color: #8aa8a1;
+  padding: 30px;
+  border-radius: 15px;
 }
 
 h1 {
-    font-family: 'Spline Sans', sans-serif;
-    font-size: 60px;
+  font-family: "Spline Sans", sans-serif;
+  font-size: 60px;
+  margin-top: 80px;
+  color: antiquewhite;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+hr {
+  color: black;
+  background-color: black;
+}
+
+main {
+  margin-left: 30px;
+  background-color: #cae0d1;
+  padding: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+
+ul,
+a {
+  font-family: "Playfair Display", serif;
+}
+
+.bottom-note {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 12px;
+}
+
+footer{
+  background-color:#8aa8a1;
+  border-radius: 15px;
+  padding:15px;
+  margin-top:10px;
+  margin-bottom:50px;
+}
+
+.copyright{
+  font-family: "Playfair Display", serif;
+  text-align:center;
+  color:white;
+}
+
+#last-update {
+  font-family: "Playfair Display", serif;
+  text-align:center;
+  font-size:12px;
+  color:antiquewhite;
 }
