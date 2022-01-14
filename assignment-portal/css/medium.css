@@ -1,4 +1,9 @@
 @media only screen and (min-width: 32.5em ) {
+    header {
+        display: grid;
+        grid-template-columns: 210px 1fr;
+    }
+    
     h1 {
         font-size: 60px;
         margin-top: 80px;     
