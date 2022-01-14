@@ -1,7 +1,14 @@
 @media only screen and (min-width: 32.5em ) {
+    body{
+        width:50%;
+    }
+    
     header {
         display: grid;
         grid-template-columns: 210px 1fr;
+    }
+    img{
+        width:200px;
     }
     
     h1 {

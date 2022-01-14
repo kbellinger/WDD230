@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 body {
   margin: auto;
-  width: 50%;
+  width: 75%;
 }
 
 header {
@@ -12,6 +12,9 @@ header {
   background-color: #8aa8a1;
   padding: 30px;
   border-radius: 15px;
+}
+img {
+  max-width: 100px;
 }
 
 h1 {
