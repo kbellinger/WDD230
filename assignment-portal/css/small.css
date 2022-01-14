@@ -6,8 +6,8 @@ body {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 210px 1fr;
+  /* display: grid;
+  grid-template-columns: 210px 1fr; */ /* added to medium.css*/
   margin-top: 100px;
   background-color: #8aa8a1;
   padding: 30px;
