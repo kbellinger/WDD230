@@ -10,8 +10,8 @@
 
     main{
         display: grid;
-        grid-template-columns: 2;
-        grid-template-rows: 2;
+        grid-template-columns:2;
+        grid-template-rows:2;
         grid-gap: 30px;
 
     }
