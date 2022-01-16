@@ -38,10 +38,10 @@ section {
 }
 
 img{
-    max-width:380px;
-    width:90%;
+    max-width:385px;
+    width:100%;
     border:1px solid gray;
-    margin:10px 10px ;
+    margin-top:10px ;
     
 }
 
