@@ -1,0 +1,20 @@
+@media only screen and (min-width: 625px) {
+
+body{
+    width:50%;
+
+}
+
+#logo-top{
+    width:400px;
+}
+nav ul li a{
+    padding:15px;
+}
+nav ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* padding:15px; */
+}
+
+}

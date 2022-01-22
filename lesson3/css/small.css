@@ -4,6 +4,7 @@ body{
     margin:auto;
     width:85%;
     min-width:250px;
+    align-content: center;
 }
 
 #logo-top{
@@ -40,11 +41,12 @@ nav ul li a {
     text-align: center;
 	padding: 10px;
     font-size: 16px;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 200;
 }
 
-nav a:hover {
-    background-color:#455D92 ;
+nav a:hover, a:active{
+    background-color:#379938 ;
 }
 
 /* Color Scheme Page css*/
@@ -90,6 +92,13 @@ nav a:hover {
 
 /* Typography page */
 
+.heading-ex {
+    font-family: 'Bebas Neue', condensed, sans-serif;
+}
+
+.paragraph-ex {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
 
 
 footer{
