@@ -46,15 +46,50 @@ nav ul li a {
 nav a:hover {
     background-color:#455D92 ;
 }
+
+/* Color Scheme Page css*/
 .colors{
-    width:33%;
+    width:35%;
 }
-.primary{
-    border: 1px solid grey; 
+
+.colors h3{
+    margin:5px;
+}
+
+.colors div{
+    border: 2px solid grey; 
+    text-align: center;
+    margin:5px;
 }
 .primary p {
     background-color: #0E5D1D;
+    color:white;
+    padding:10px;
+    margin:0;
 }
+
+.secondary p {
+    background-color: #BEE7DE;
+    padding:10px;
+    margin:0;
+}
+
+.accent1 p{
+    background-color:#379938;
+    color:white;
+    padding:10px;
+    margin:0;
+}
+
+.accent2 p{
+    background-color:#455D92 ;
+    color:white;
+    padding:10px;
+    margin:0;
+}
+
+/* Typography page */
+
 
 
 footer{
