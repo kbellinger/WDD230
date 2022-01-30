@@ -13,20 +13,29 @@
 </head>
 <body>
     <header>
-        <img id="main-logo" src="images/logo copy/logo_small.png" alt="skiatook lake chamber of commerce logo">
+        
         <nav>
-            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
-            <ul>
-                <li><a href="index.html">Home</a></li>
+            <div>
+                
+                <a href="https://www.facebook.com/" target="blank" >
+                    <img id="facebook" src="images/facebook.png" alt="facebook logo"></a>
+
+                <a href="https://www.instagram.com/?hl=en" target="blank" >
+                    <img id="instagram" src="images/instagram.png" alt="instagram logo"></a>
+
+                <img id="main-logo" src="images/logo copy/logo_small.png" alt="skiatook lake chamber of commerce logo">
+                <button id="hamburgerbtn"><span>&#9776;</span><span>x</span></button>
+            </div>
+            <ul id="primarynav">
+                <li><a class="active" href="index.html" >Home</a></li>
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="https://www.facebook.com/" target="blank">Facebook</a></li>
-                <li><a href="https://www.instagram.com/?hl=en" target="blank">Instagram</a></li>
+                
             </ul>
         </nav>
-        <date><script src="js/date.js"></script></date>
+        <p id="date"><script src="js/date.js"></script></p>
     </header>
 
     <main>
@@ -61,20 +70,20 @@
         <img src="images/logo copy/logo_small_icon_only_inverted.png" alt="logo icon">
         <div>
             
-            <p><strong>Skiatook Lake Chamber of Commerce</strong>
+            <p id="address"><strong>Skiatook Lake Chamber of Commerce</strong>
                 <br>1230 W Rogers Blvd, Skiatook, OK 74070</p>
             <a href="https://www.google.com/maps/place/1230+W+Rogers+Blvd,+Skiatook,+OK+74070/@36.368474,-96.0063368,17z/data=!4m5!3m4!1s0x87b6e6ca3f8741ff:0xf9bea6ac7a862df1!8m2!3d36.3682537!4d-96.0059411!5m1!1e4" target="blank">
                 <img src="images/chamber-map.png" alt="map to chamber of commerce"></a>
         </div>
-        <div>
-            <p><strong>Contact Us</strong>
-                <br>(918) 647-8922
+        <div id="contact">
+            <p><strong>Contact Us</strong></p>
+                <p>(918) 647-8922
                 <br>slchamber@gmail.com</p>
         </div>
         <div>
             <p class="copyright"> &copy; 2022 Skiatook Lake Chamber | Kaylene Ellinger | WDD 230 Project | <span id="last-update"><script src="js/last-mod.js"></script></span></p>
         </div>
     </footer>
-
+    <script src="js/menu.js"></script>
 </body>
 </html>
