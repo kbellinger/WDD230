@@ -19,8 +19,7 @@
 
     nav ul li a {
         border: none;
-        border-right: 1px solid rgba(0, 0, 0, .3);
-        padding: 15px 7.5em;
+        padding:20px 65px;
     }
     
     
@@ -28,9 +27,13 @@
         width: 500px;
     }
 
-    #facebook, #instagram{
-        width:40px;
-        padding: 20px;
+    #facebook{
+        width:30px;
+        padding:32px 0px 32px 75px ;
+    }
+    #instagram{
+        width:30px;
+        padding: 32px 0px 32px 30px;
     }
 
     main{
