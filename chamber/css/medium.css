@@ -7,7 +7,7 @@
     #top-nav {
         display:grid;
         grid-template-columns: 75% 8% 8% 8%;
-        grid-template-rows: 1;
+        /* grid-template-rows: 1; */
     }
 
     #main-logo{
