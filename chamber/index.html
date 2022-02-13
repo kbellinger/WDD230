@@ -18,6 +18,9 @@
     <header>
         
         <nav>
+            <div id="banner" >
+                <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+            </div>
             <div id="top-nav">
                 
                 <img id="main-logo" src="images/logo_copy/logo_small.png" alt="skiatook lake chamber of commerce logo">
@@ -39,17 +42,24 @@
                 
             </ul>
         </nav>
-        <p id="date"><script src="js/date.js"></script></p>
+        <p id="date"></p>
+        
     </header>
 
     <main>
+
         <section id="hero">
-            <h2 class="welcome">Welcome to Skiatook Lake!</h2>
+            <h1 class="welcome">Welcome to Skiatook Lake!</h1>
             <!-- <p>Hero with site name and call to action</p> -->
-            <img src="images/lake_sunrise.jpg" alt="Photo by Ian M Jones on Unsplash, lake with sunrise." class="lake-photo" >
-            <section class="overlay">
-                <button>Join the Chamber</button>
-            </section>
+            <!-- <img src="images/trees_by_lake1024.jpg" alt="Photo by Ian M Jones on Unsplash, lake with sunrise." class="lake-photo" > -->
+            <picture class="lake-photo">
+                <source media="(max-width:400px)" srcset="images/lesson6-images/wdd230-400.jpg">
+                <source media="(max-width:800px)" srcset="images/lesson6-images/wdd230-800.jpg">
+                <img class="lake-photo" src="images/lesson6-images/wdd230-1100.jpg" alt="people sitting together at a table discussing">
+            </picture>
+            <div >
+                <button class="overlay">Join the Chamber</button>
+            </div>
         </section>
 
         <section id="event">
@@ -62,10 +72,10 @@
         <section id="weather">
             <h2>Weather</h2>
             <img src="images/trans_sun_icon.png" alt="sun icon" class="sun-icon">
-            <p>65&deg;F</p>
+            <p><span id="temp">47</span>&deg;F</p>
             <p>Sunny</p>
-            <p>Wind Speed: 10mph
-                <br>Humidity: 87%</p>
+            <p>Wind Speed: <span id="wind-speed">12</span>mph
+                <br>Wind Chill: <span id="wind-chill"></span>&deg;F</p>
             
         </section>
 
@@ -96,6 +106,11 @@
                 <p>Best smoked meat this side of the Mississippi. Premium meats and ingredients cooked the old fashioned way.
                 </p>
             </div>
+            <div class="spotlight3">
+                <h2>Welcome Mr. Bass Inc</h2>
+                <p>Mr. Bass Fishing store has all your supply needs for a nice day out on the lake
+                </p>
+            </div>
         </section>
 
     </main>
@@ -119,5 +134,7 @@
         </div>
     </footer>
     <script src="js/menu.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

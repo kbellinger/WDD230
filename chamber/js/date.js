@@ -5,3 +5,16 @@ const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	now
 );
 datefield.innerHTML = `<em>${fulldate}</em>`;
+
+/* Banner */
+function displayBanner() {
+	let dayOfWeek = new Date().getDay();
+	if (dayOfWeek==1 || 2) {
+		document.getElementById('banner').style.display = "block"
+	} 
+	else {
+		document.getElementById('banner').style.display = "none"
+	}
+}
+
+document.displayBanner()

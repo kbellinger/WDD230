@@ -60,6 +60,19 @@
         grid-column: 3/4;
    }
 
+   .welcome {
+       top: 0px;
+       left: 45px;
+       font-size: 3rem;
+   }
+
+   .overlay {
+    font-size: 1.1em;
+    padding: 20px;
+    border-radius: 15px;
+
+   }
+
    footer{
        display:grid;
        grid-template-columns: 1fr 1fr 1fr 1fr;
