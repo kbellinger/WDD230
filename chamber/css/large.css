@@ -37,7 +37,7 @@
     }
 
     main{
-        width:90%;
+        width:85%;
         margin: auto;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
