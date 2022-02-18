@@ -45,7 +45,11 @@
         column-gap: .25em;
     }
 
-   
+   .sun-icon {
+       width: 40%;
+       margin-left: 1em;
+       float:left;
+   }
 
     .overlay {
         position: absolute;

@@ -8,6 +8,18 @@ body{
     text-align: center;
 }
 
+#banner{
+    background-color: #bee7de;
+    color: #455D92;
+    text-align: center;
+    width:100%;
+    padding: 0.4em;  
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1em;
+    display: none;
+}
+
+
 #main-logo{
     margin-left:15px;
     width:200px;
@@ -108,16 +120,6 @@ main section {
     /* padding: 10px 40px 60px 20px; */
 }
 
-#banner{
-    background-color: #bee7de;
-    color: #455D92;
-    text-align: center;
-    width:100%;
-    padding: 0.4em;  
-    font-family: "Be Vietnam Pro", sans-serif;
-    font-size: 1em;
-    display: none;
-}
 
 h1, h2 {
     font-family: "Bebas Neue", sans-serif;
@@ -180,12 +182,13 @@ picture{
     padding:10px 20px;
 
 }
-
-#weather :nth-child(3) {
+ /* Temperature */
+#temp-par {
     font-size: 2.5em;
     
 }
 
+/* weather condition */
 #weather :nth-child(4) {
     text-align: right;
     font-size: 1.5em;
@@ -193,15 +196,20 @@ picture{
     
 }
 
+/* Wind speed and wind chill */
 #weather :nth-child(5) {
     text-align: left;
 }
 
+#wind-chill {
+    font-size: 1em;
+}
+
 .sun-icon{
-    width:20%;
+    width:25%;
     height: auto;
-    margin-left: 60px ;
-    float:left;
+    /* margin-left: 2.5em ; */
+    align-content: center;
 }
 
 #join {
