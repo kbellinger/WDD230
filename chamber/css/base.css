@@ -290,6 +290,43 @@ footer div a img {
     color:white;
 }
 
+/* discover page */
+.discover-main {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover-main div{
+    margin-top: 20px;
+    border-top: 1px solid;
+    padding: 30px;
+    width: 100%;
+}
+
+.discover-main div picture{
+    
+    /* padding: -30px 10px 10px 0px ; */
+    max-width: 100%;
+    height: auto;
+}
+
+.discover-main div picture img{
+    max-height: 100%;
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+    
+}
+
+/* .discover-main div picture img[data-src]{
+    /* max-height: 100%;
+    width: 100%; 
+   } */
+
+
 /*Color Scheme:
 Dark green: #0E5D1D
 light blue: #bee7de
