@@ -164,5 +164,29 @@
         padding: -15px 10px 10px 0px ;
    } */
 
+
+
+   /* ------ FORM ------- */
+   .main-join{
+       display: grid;
+       grid-template-columns: 50% 50%;
+       gap: 3em;
+       margin:20px 40px;
+       width: 90%;
+   }
+
+   .main-join h1, .main-join p{
+      margin-bottom: -10px;
+      margin-left: 2%;
+   }
+
+   .form{
+       grid-column: 1/2;
+   }
+
+   .mem-info{
+       grid-column: 2/3;
+   }
+
 }
     

@@ -327,9 +327,81 @@ footer div a img {
    } */
 
 
+/* ------ FORM ------ */
+
+.main-join{
+    text-align: left;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 2px solid #445D92;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #445d92;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-weight: 600;
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: #000;
+    font-size: .8rem;
+}
+
+form label.top input {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.top input.busdescript {
+    padding-bottom: 4rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .74rem 0;
+    color: #555;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #0E5D1D;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 90%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: rgb(156, 48, 48) solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #0E5D1D solid 6px;
+
+}
+
+
 /*Color Scheme:
 Dark green: #0E5D1D
 light blue: #bee7de
 light green: #379938
 dark blue: #455D92
 */
+

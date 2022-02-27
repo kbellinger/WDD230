@@ -47,38 +47,49 @@
     </header>
 
     <main class="main-join">
+        
+        <!-- MEMBERSHIP FORM -->
+    <div class="form">
         <h1>Membership Sign-up</h1>
+        <p>* = Required</p>
         <form method="get" action="thankyou.html">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">First Name * <input type="text" name="fname" required></label>
+                <label class="top">Last Name * <input type="text" name="lname" required></label>
                 <!-- come back and fix title and pattern-->
                 <label class="top">Business Title <input type="text" name="bustitle" pattern=""></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="johndoe@email.com" required></label>
-                <label class="top">Phone Number* <input type="tel" name="phone" required></label>
+                <label class="top">Email * <input type="email" name="email" placeholder="johndoe@email.com" required></label>
+                <label class="top">Phone Number * <input type="tel" name="phone" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Name * <input type="text" name="busname" required></label>
+                <label class="top">Business Description * <input class="busdescript" type="text" name="busdescript" required></label>
+
             </fieldset>
            
             <fieldset>
-                <legend>Membership Selection</legend>
+                <legend>Membership Selection *</legend>
                 <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
 
             </fieldset>
+            <input class="submitBtn" type="submit" value="Join the Chamber">
         </form>
-        <div>
+    </div>
+        <!-- MEMBERSHIP INFO -->
+        <div class="mem-info">
             <h1>Memberships Available</h1>
 
             <h3>NP Membership - No Membership Fee </h3>
             <p><em>For non profit organizations that what to be apart of the chamber to help better the community.</em></p>
             <ul>
                 <li>Link to website availabale on directory.</li>
-                <li>$150 sponsorship credit.</li>
                 <li>Event advertising twice a year.</li>
-                <li>Included in newsletter.</li>
-
             </ul>
             <hr>
 
@@ -89,10 +100,8 @@
                 <li>$200 sponsorship credit.</li>
                 <li>Event advertising up to twice a year.</li>
                 <li>Advertising at chamber sponsored events.</li>
-                <li>Included in newsletter.</li>
                 <li>Business training sessions biannually.</li>
                 <li>Invitation to networking programs and events.</li>
-                <li>Special member discounts.</li>
             </ul>
             <hr>
 
@@ -100,9 +109,9 @@
             <p><em>For growing businesses wanting to be apart of the chamber and make new connections.</em></p>
             <ul>
                 <li>Link to website available on directory.</li>
-                <li>Logo advertised on website as well as in newletters and magazines</li>
                 <li>$400 sponsorship credit.</li>
                 <li>Event advertising up to four times a year.</li>
+                <li>Opportunity to be spotlighted on website</li>
                 <li>Advertising at chamber sponsored events.</li>
                 <li>Included in newsletter.</li>
                 <li>Business training sessions biannually.</li>
@@ -124,7 +133,6 @@
                 <li>Business training sessions biannually.</li>
                 <li>Special member discounts.</li>
                 <li>Invitations to additional monthly business trainings, community programs, and networking opportunities.</li>
-                <li>Up to 6 spots at all meetings, trainings, and luncheons.</li>
                 <li>Selection of advertising locations.</li>
                 <li>Executive presence amongst chamber leaders.</li>
             </ul>
