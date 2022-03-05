@@ -1,0 +1,79 @@
+{
+	"businesses": [
+		{
+			"name": "Osage Casino",
+			"address": "5591 W C Rogers Blvd, Skiatook, OK 74070",
+			"phone": "(877) 246-8777",
+			"website":  "http://www.osagecasinos.com/"
+		},
+		{
+			"name": "Tastes Freez",
+			"address": "712 Wc Rogers Blvd, Skiatook, OK 74070",
+			"phone": "(918) 396-2539",
+			"website": "No website available"
+		},
+		{
+			"name": "Cornerstone Ace Building Center",
+			"address": "310 W Rogers Blvd, Skiatook, OK 74070",
+			"phone": "(918) 396-1412",
+			"website": "https://www.acehardware.com/store-details/16045"
+		},
+		{
+			"name": "Bill's Marine",
+			"address": "14626 N 56th W Ave, Skiatook, OK 74070",
+			"phone": "(918) 396-4916",
+			"website": "http://billsmarine.net/"
+		},
+		{
+			"name": "Skiatook Splash Pad",
+            "address": "Skiatook Central Park, Osage Praire Trail, Skiatook, OK 74070",
+			"phone": "(918) 396-2797",
+			"website": "https://www.cityofskiatook.com/facilities/facility/details/Skiatook-Central-Park-1"
+		},
+		{
+			"name": "Crossfit Skiatook",
+			"address": "125 W Rogers Blvd, Skiatook, OK 74070",
+			"phone": "(918) 465-9021",
+			"website": "http://www.crossfitskiatook.com/"
+		},
+		{
+			"name": "Supernaw's Indian Supply",
+			"address": "213 Wc Rogers Blvd, Skiatook, OK 74070",
+			"phone": "(918) 396-1713",
+			"website": "http://www.supernaws.com/"
+		},
+		{
+			"name": "Rachael's Elite Grooming",
+			"address": "119 W Rogers Blvd, Skiatook, OK 74070",
+			"phone": "(918) 902-2284",
+			"website": "No website available"
+		},
+		{
+			"name": "Rosie's Posies Floral Designs & Events",
+			"address": "510 W Rogers Blvd, Skiatook, OK 74070",
+			"phone": "(918) 396-4147",
+			"website": "http://www.skiatookflorist.com/"
+		},
+		{
+			"name": "Mac's BBQ",
+			"address": "1030 W Rogers Blvd, Skiatook, OK 74070",
+			"phone": "(918) 396-4165",
+			"website": "http://www.macsbbqok.com/"
+		},
+		{
+			"name": "William's Dental & Orthodontics",
+			"address": "1400 W 4th St, Skiatook, OK 74070",
+			"phone": "(918) 396-3711",
+			"website": "http://www.williamsdentalok.com/"
+		},
+		{
+			"name": "Urban Oasis Spa",
+			"address": "206 Wc Rogers Blvd, Skiatook, OK 74070",
+			"phone": "(918) 396-2052",
+			"website": "https://www.bestprosintown.com/ok/skiatook/urban-oasis-spa-/"
+		}
+
+
+]
+
+}
