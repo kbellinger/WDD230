@@ -10,9 +10,10 @@ function displayBusinessCards(business) {
     let phone = document.createElement('p');
     let web = document.createElement('a');
     
+    logo.setAttribute('src', business.image);
+    logo.setAttribute('alt', `Logo for ${business.name}.`);
 
     // assigning data to elements within cards
-    logo.textContent = `${business.logo}`;
     busName.textContent = `${business.name}`;
     address.textContent = `${business.address}`;
     phone.textContent = `${business.phone}`;
