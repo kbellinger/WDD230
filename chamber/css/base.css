@@ -290,7 +290,7 @@ footer div a img {
     color:white;
 }
 
-/* discover page */
+/* --------- DISCOVER PAGE --------- */
 .discover-main {
     width: 75%;
     margin: auto;
@@ -327,7 +327,7 @@ footer div a img {
    } */
 
 
-/* ------ FORM ------ */
+/* ------ FORM / JOIN PAGE ------ */
 
 .main-join{
     text-align: left;
@@ -396,6 +396,31 @@ form label.top input:required:valid {
     border-left: #0E5D1D solid 6px;
 
 }
+
+/* --------- DIRECTORY --------- */
+
+.main-direct h1{
+    text-align: center;
+}
+.main-direct p{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.main-direct section {
+    background-color: white;
+    color: black;
+    border: 2px solid #888;
+    margin: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+
 
 
 /*Color Scheme:
