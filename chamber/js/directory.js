@@ -24,6 +24,11 @@ function displayBusinessCards(business) {
 
 };
 
+// toggle list view
+function listView () {
+    document.getElementById('list').classList.toggle('')
+}
+
 fetch(requestURL)
 .then (function (response) {
     return response.json();
