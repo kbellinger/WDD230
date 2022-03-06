@@ -4,17 +4,21 @@ const cards = document.querySelector('.cards');
 function displayBusinessCards(business) {
     // creating elements for the cards
     let card = document.createElement('section');
+    let logo = document.createElement('img');
     let busName = document.createElement('h2');
     let address = document.createElement('p');
     let phone = document.createElement('p');
-    let web = document.createElement('p');
+    let web = document.createElement('a');
+    
 
     // assigning data to elements within cards
+    logo.textContent = `${business.logo}`;
     busName.textContent = `${business.name}`;
     address.textContent = `${business.address}`;
     phone.textContent = `${business.phone}`;
     web.textContent = `${business.website}`;
 
+    card.appendChild(logo);
     card.appendChild(busName);
     card.appendChild(address);
     card.appendChild(phone);
