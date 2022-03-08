@@ -188,5 +188,11 @@
        grid-column: 2/3;
    }
 
+   /* ------- DIRECTORY -------- */
+   .main-direct {
+       width: 85%;
+       margin: auto;
+   }
+
 }
     

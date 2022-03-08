@@ -433,10 +433,18 @@ form label.top input:required:valid {
 }
 
 /* listview */
-#listview {
-
+.main-direct img.list-open{
+    display: none;
 }
 
+.cards.list-open {
+    display: none;
+}
+
+.main-direct section.list-open {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
 
 
 /*Color Scheme:
