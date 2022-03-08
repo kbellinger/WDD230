@@ -425,6 +425,12 @@ form label.top input:required:valid {
     box-shadow: 0px 0px 8px 2px#777;
 }
 
+.main-direct img {
+    width: auto;
+    max-height: 100px;
+    height: 200px;
+}
+
 /* listview */
 #listview {
 
