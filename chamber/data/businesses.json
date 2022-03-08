@@ -67,19 +67,22 @@
 			"name": "Mac's BBQ",
 			"address": "1030 W Rogers Blvd, Skiatook, OK 74070",
 			"phone": "(918) 396-4165",
-			"website": "http://www.macsbbqok.com/"
+			"website": "http://www.macsbbqok.com/",
+            "logo": "http://www.macsbbqok.com/wp-content/uploads/2017/09/macs-bbq-logo-rd-wh.png"
 		},
 		{
 			"name": "William's Dental & Orthodontics",
 			"address": "1400 W 4th St, Skiatook, OK 74070",
 			"phone": "(918) 396-3711",
-			"website": "http://www.williamsdentalok.com/"
+			"website": "http://www.williamsdentalok.com/",
+            "logo": "https://mllubezel1yn.i.optimole.com/YS-Ex2k-8QtalXb2/w:285/h:78/q:auto/https://dental.dev/wp-content/uploads/sites/40/2021/05/williams-logo-nav-new.svg"
 		},
 		{
 			"name": "Urban Oasis Spa",
 			"address": "206 Wc Rogers Blvd, Skiatook, OK 74070",
 			"phone": "(918) 396-2052",
-			"website": "https://www.urbanoasisspaok.com/"
+			"website": "https://www.urbanoasisspaok.com/",
+            "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAABUCAMAAACcJNqRAAAArlBMVEX///+60KwAXyri69z6/PnX5M/f6+TA1LOPuaHD1rfc59XP3sV/r5S90rDn7+LG2Lqvzbzs8ujP4dfv9fIfckQPaDf0+PJBiGDT4ctvpYe/18pPkWyjwpzm7uBfm3np8e2LtIufw68vfFFmn3+YvqmArYN7rJFblmpRkm7V5dxCiGG10cEyflRFiVqwyqVinHxWk2bE2s44gVGavZeKtJJ2p31onnYnd0a81L16q4iBtwMPAAAKQElEQVR4nO1cZ3uqyhY2Q5XehiIRAyqxJjH7bL37//+xu2YoAqKxpZjH98vZR5BZL6uvGdPp3HHHHXfccccdd1wPriZxvqzrXYGgq8uyLzHmd0v12XAZTu4+tELQfUn7bvk+Cxqnq+20t/xl6fepX/P3aHsHOveb2LucfiTvgr373SJfB335IzvfhSoz3y325WBOU/gWXYn9btkvwtnECYQbtnuzTlzNUjijaZQSa2oMQ1J8d69D3Cp5V65Yr8wdytoa48tCO/kbNHtWEgpd+8xRujOlVvr6rQW83NaB9kla09rSoHxLiZ7lVJKgzirNTGmHvcrdjNWDyoH3+RHK5JqWr9+I4hn18nKMkW9S8dfpQE2/nvPk28xz58Gt273Q/26BvhJsnTz33fJ8Kerk5e9zeFejlSedLqm5K6oqmTKRGpWTGO36DulWfV7/eodnNcmX9fZasxGKuzoUrf1riliriL8yy9F52ukdt6DL0nEF7BHQtlWO8EUDPJPxP5ynHcQHbcvRKDsCMKvPr+lZoH0J6y0Embtc/1ur/2Tu0EUd0LYAUQ2CGm29TQqNtN4Sx0EE3OMcXflS9TPFYPMTuUMDsYe3elQIc/sQHtrigwD0L0hPrF+I8TnFjbtH38C6RW0syXYASGs7nNg+ZIWdETRY//na1/LHqZ8Q6/qt0wJ1b9utkRyvFje1NanwAuSmEZ2/01AoXrhyjnN3O2Uq54cxymSkXL2636oPwr+h/+6Rs5smcsVflbvptyi8206l9fu5p3T37Z64zUwJvS15um2fJCebhfru2TnD7hniIkmSMJ4PyP/n+wSPT3+Xm83mbfxEeZ8YTgqzkfdOpVim3Hh7HD8vl8u35ygIXiezhTdRDP64ZRjhMu6ACCEUZw+rWjp8+nD2/kc/18mBWQWh/+cN47enl0z51PP5eIKR89o7ZpEsx1/CPQCSZKl+3cUxwgdFb0NFy2ZG/tAIfbVAzn+1RXViYLaIEUqMtofmKH1DUuvcT3SanLrWjG1AnelM56LjeKIiKsNZmM4zUXpG6DjKSBRfZ8G8Sjx0Kraq4PVjlTzfm4fObG6VN6QIOYOd4TOEU3awAJGC/KGRY1XWMKKhIo7EdIZXnY5leBgvxy9u7cJRFrOlbjRmYJS6Qy8jFGYyxBglg5wWQlQeC+cXM+bwtrZiKgij978vlHyuuFHBJ2eOihfXr+25q7KMCyekD12VX3pFYv6vmM8fMqZxfoiU2oXjqT81icum06BO1+nVqXcmaFgy9xb2sCKmgqbxAuG3P8QmpUwqlG5fFKyKKvbp1pS/hIsTyjyxU7RVZIiSqp0RQUZdUtdNkFO7cDZ1Mu3fpR6WkotgJzzPW4FXuiTrEZMYbsVUyNuxIow2RPU6yV/zUjXgloR61ZQ7VPm5AM9w8Q1SfkhcIkC4WMZOwRiH89L9gbpBop3qNy4cBW2NqNVUiGsZZS+nnhi9ldUbhWlpSkB9NDdicYIXQS9nnvk5pAujkIpesf9tEFo+0VHqqkIdDCZTbB258uE7CMzlHf+P+PGwSEFkIQNSAJ6Ui5DlSJrzbSOqXDgC8MqeYJllJcpm2WwO7HLqnmX1eqKDolJJYqEwFv61GBDmWBEpZoWYSvEOtMc3UP36ReCsKnWbxLJhi5og640RwmPC/Hm9/vtPESeFMNkN81dQ8WpLnaY53YULw+LCx6Ct/xvI8LcIsHlI4oFpJ6eehzkgP+s1qNMAEBPm5WsBFYmZVIW0INj4naj+pUq9wyokicWdHYB3o1BVH94LP9R9MCby1TI2QA7wKtTpDEOQsguLY4gXff8Y7GszJsE4H/BbAS5ksgvDh+ePHJSM7E414LEhmrC2hyoZBWJHSv9T8iTdxst6AyF/XcvyAxE07wTzQZU3aG6hgPPAQysR6JlaSFqYM+tlthXkNpZSjwfp2RlqeZk72E57Hv6s3zd4sxwqipJGoReNprkgKwVjJ+4VXj4fLpwoVRKMk4CkUWUoznujBZ6tKsE6xHiRigmGGFGQorUH1G7rbqM4HBhpmGDHiwKy9DCahKkxIEVAvMCLFbNtnZcYb/49O14gxiMliMjLgaoDBAnnsLYIF5R/6/V6ohzMbS5d3m2mclXmp5Zl8SdWRMdBKzu2tp0jewBLT/lBq+dXB2SC7IOArXHc5nlfPXz0huXoRrXWnB588i6mWxIQpFO/a9Z63e7+Np+VulB87yHvcjSCl0OeEv5n72iwWys7ZwdBq5U8e0d8LHSNgtzSappy3og1jb37BWPtyutWzzsao9W0v2/CCzaiN7YoTE73i08a1v5Fm1jcFdzLlGqTjq780XFiMhqpTg60arOknux850LaCn3JIYHmoE/VyWm0nY0+VmM4MIDmZK0S3w/uX5WpYrDzgWVln0Fszlls22WWt6wpvQyBl+fzL0MMfiSALP+YKZ6mk0FxS+VW+DR/KL1KH2RnT2YLYhLX2P9T6X5nBr0r7Bkfd9gi4h42di9vM8Wsl+lYTlbkDRYxdC8gTDyzeCPrJO1ZknEfTcQVNDcjUtmkTm9u5AXP3DCSzXgMJepf9EIVj8ktUQK3rEj1pFgr0clu5pNZJpgXWpaRpB12SBp3O6xUtARmX6I7HkLVCgR4A1wx7Gd3VCtltx3ep7e92YQ8IFAQVfd0Mkjoy5jioEd5pk5Z/kz4yCM3p7hSnimJbVdKhWhCX/kYUfW/OKTiG3r5LVCU2nFWg/OTgZc1N2FE6n3ywmNs8NF0r6ysqRGYZk2XfVnfUTyl/tHmjaGwkTewoXHBpD7kF6NYxLRAteeptyAK4kevSWSTkjaN4ySEdcMk+/KcvCTRMQxjK28UUVcboycK/A/uDxLDoAMGFIR5ezpYQNHm0FlA6BlxnHUIUyc8LUBAKm87aih95OYEE+j/AycEuTx477xH1DnFYu6kM3gJU/oJD8Uz0Za9AFWtnJSqmTpJmtQeGIY0wVODB+Bn0Mlr3iSwUH7PkwDWGHjkTfAOcYdZpbP1hp3jwTKy2l7cMcecRiJydEZEjhjESLN+sBfxHSsdGSMyFxGVOCY3xFnXwEdz0lMro9gwRPJRPIxFcdtRiCQscA9Py4z6EjpGXwzgFtC2HfVIPwdritnExYpgQUXcipM2HP0AyH7C3qqW+b6jSFJtD6LZ0lwOuhPwQ0/Sa/Utnusef2VIu/dDiXeq3czFBU4dJv1hkf5jiXdq3QzFVU6851teP5o4gdTYc770xDvLZHONWzg5bzY3fC4Rup/tEKs3cmp+d2pwJnmTy7fb/dsgTsDsnDQ53U/NYuPix7t4He6O4h+EU37SWfJW20YzPxw7Hk+32o/RH8uUv5DVL/ixxTeCzBLb2B8m0+fKOXX3hjy8CXbnRy6U/b6fh5lMZU9a2H9s5TbgtpJ/yGZvTF8janVNcjqvNpi5ed4UbOuRtUPo+v1fwDuD1nZurR2/8O8a9I84ht295Izpj0Zj0F4FOZb86/+IicbU/nALHbD+etJ33HHHFfF/rGO45/cNNUgAAAAASUVORK5CYII="
 		}
 
 
