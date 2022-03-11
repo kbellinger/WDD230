@@ -31,14 +31,6 @@ function displayBusinessCards(business) {
 
     cards.appendChild(card);
 
-    // adding to listview
-    // listItem.appendChild(busName);
-    // listItem.appendChild(address);
-    // listItem.appendChild(phone);
-    // listItem.appendChild(web);
-
-    // list.appendChild(listItem);
-
 };
 
 function displayList(business) {
@@ -81,4 +73,5 @@ fetch(requestURL)
 .then(function(jsonObject){
     const businesses = jsonObject['businesses'];
     businesses.forEach(displayBusinessCards);
+    businesses.forEach(displayList);
 });

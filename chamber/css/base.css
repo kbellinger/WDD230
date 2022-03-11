@@ -402,6 +402,11 @@ form label.top input:required:valid {
 .main-direct h1{
     text-align: center;
 }
+
+.main-direct button{
+    justify-content: center;
+}
+
 .main-direct p{
     margin-top: -5px;
     font-size: 14px;
