@@ -7,10 +7,16 @@ fetch(apiURL)
     document.querySelector('#current-temp').textContent = jsObject.main.temp.toFixed(0);
     
     const icon = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
-    const desc = jsObject.weather[0].description;
+    let desc = jsObject.weather[0].description;
+
+    desc = desc.split(' ').map(capitalize).join(' ');
+
     document.querySelector('#icon-src').textContent = icon;
     document.querySelector('#weather-icon').setAttribute('src', icon);
     document.querySelector('#weather-icon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = desc;
   });
 
+function capitalize(word) {
+    return `${word.charAt(0).toUpperCase()}${word.slice(1)}`;
+};
