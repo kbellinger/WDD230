@@ -58,14 +58,14 @@ function displayList(business) {
 }
 
 // toggle list view
-function listView () {
+function viewSwitch() {
     document.querySelector('.list').classList.toggle('list-open');
-    document.getElementById('listviewbtn').classList.toggle('list-open');
+    document.querySelector('#gridviewbtn').classList.toggle('list-open');
 }
-const listBtn = document.getElementById('listviewbtn')
-listBtn.onclick = listView;
+const btn = document.getElementById('gridviewbtn')
+btn.onclick = viewSwitch;
 
-
+// fetching json file
 fetch(requestURL)
 .then (function (response) {
     return response.json();

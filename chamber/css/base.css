@@ -156,6 +156,10 @@ picture{
 
 }
 
+.event-date {
+    color: #bee7de;
+}
+
 #hero{
     position: relative;
     background-color: white;
@@ -188,28 +192,28 @@ picture{
  /* Temperature */
 #temp-par {
     font-size: 2.5em;
-    
+    margin-bottom: 10px;
 }
 
 /* weather condition */
-#weather :nth-child(4) {
-    text-align: right;
-    font-size: 1.5em;
-    margin-right: 60px;
+#condition {
+    text-align: center;
+    font-size: 1.2em;
+    margin: auto;
     
 }
 
 /* Wind speed and wind chill */
 #weather :nth-child(5) {
-    text-align: left;
+    text-align: center;
 }
 
 #wind-chill {
     font-size: 1em;
 }
 
-.sun-icon{
-    width:25%;
+.weather-icon{
+    width:50%;
     height: auto;
     /* margin-left: 2.5em ; */
     align-content: center;
@@ -438,18 +442,16 @@ form label.top input:required:valid {
 }
 
 /* listview */
-.main-direct img.list-open{
-    display: none;
-}
+
 
 .cards.list-open {
     display: none;
 }
 
-.main-direct section.list-open {
+/* .main-direct section.list-open {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
+} */
 
 
 /*Color Scheme:
