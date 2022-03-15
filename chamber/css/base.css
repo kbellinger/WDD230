@@ -199,7 +199,7 @@ picture{
 #condition {
     text-align: center;
     font-size: 1.2em;
-    margin: auto;
+    /* margin: auto; */
     
 }
 
@@ -335,6 +335,7 @@ footer div a img {
 
 .main-join{
     text-align: left;
+    width: 90%;
 }
 
 form fieldset {
@@ -452,6 +453,41 @@ form label.top input:required:valid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 } */
+
+
+/* -------------- Contact Page --------------- */
+
+.main-contact{
+    width: 85%;
+    margin:auto;
+}
+
+.main-contact h1 {
+    text-align: center;
+    border-bottom: 1px rgb(83, 81, 81) solid;
+    padding-bottom: 25px;
+}
+
+
+.main-contact p {
+    margin-top: -10px;
+}
+
+.main-contact div h3{
+    font-weight: 900;
+    margin-top: 30px;
+    color: #0E5D1D;
+}
+
+.contact-form {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.contact-form form fieldset{
+    border: none;
+    text-align: left;
+}
 
 
 /*Color Scheme:
