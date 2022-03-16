@@ -35,7 +35,7 @@ function displayBusinessCards(business) {
 
 function displayList(business) {
     let listItem = document.createElement('section');
-    let busName = document.createElement('h2');
+    let busName = document.createElement('h3');
     let address = document.createElement('p');
     let phone = document.createElement('p');
     let web = document.createElement('a');
@@ -58,12 +58,18 @@ function displayList(business) {
 }
 
 // toggle list view
-function viewSwitch() {
-    document.querySelector('.list').classList.toggle('list-open');
-    document.querySelector('#gridviewbtn').classList.toggle('list-open');
-}
-const btn = document.getElementById('gridviewbtn')
-btn.onclick = viewSwitch;
+function viewSwitch(show, hide) {
+    if (show.classList.contains('view')){
+        show.classList.remove('view');
+    }
+    if(!hide.classList.contains('view')){
+        hide.classList.add('view');
+    }
+};
+const gridBtn = document.getElementById('gridviewbtn');
+const listBtn = document.getElementById('listviewbtn');
+gridBtn.onclick = function () {viewSwitch(cards, list)};
+listBtn.onclick = function () {viewSwitch(list, cards)};
 
 // fetching json file
 fetch(requestURL)
