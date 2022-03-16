@@ -9,7 +9,7 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 /* Banner */
 function displayBanner() {
 	let dayOfWeek = new Date().getDay();
-	if (dayOfWeek==1 || 2 || 3) {
+	if (dayOfWeek==1 || dayOfWeek==2 ) {
 		document.getElementById('banner').style.display = "block"
 	} 
 	else {
