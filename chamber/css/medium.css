@@ -193,6 +193,11 @@
        width: 85%;
        margin: auto;
    }
+
+   .buttons{
+        text-align: center;
+    }
+
    /* ---------- CONTACT ------------ */
    .main-contact{
        width: 75%;
