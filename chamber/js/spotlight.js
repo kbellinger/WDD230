@@ -6,72 +6,71 @@ let spotligth3 = document.querySelector('.spotlight3');
 
 
 
+function displaySpotlight (business, spotlightNum){
+
+    let logo = document.createElement('img');
+    let busName = document.createElement('h2');
+    let slogan = document.createElement('p');
+    let phone = document.createElement('p');
+    let web = document.createElement('a');
+
+    logo.setAttribute('src', business.logo);
+    logo.setAttribute('alt', `Logo for ${business.name}.`);
+
+    website.setAttribute('href', business.website);
+    website.setAttribute('target', 'blank');
+
+    busName.textContent = `${business.name}`;
+    slogan.textContent = `${business.slogan}`
+    phone.textContent = `${business.phone}`;
+    web.textContent = `${business.website}`;
+
+    spotlightNum.appendChild(logo);
+    spotlightNum.appendChild(busName);
+    spotlightNum.appendChild(slogan)
+    spotlightNum.appendChild(phone);
+    spotlightNum.appendChild(web);
+
+    spotlights.appendChild(spotlightNum);
+
+
+};
+
+
+
 // fetching json file
 fetch(requestURL)
 .then (function (response) {
     return response.json();
 })
 .then(function(jsonObject){
-    const business = jsonObject['businesses'];
-   
-    bus1 = business[Math.floor(Math.random() * 12)]
-    bus2 = business[Math.floor(Math.random() * 12)]
-    bus3 = business[Math.floor(Math.random() * 12)]
+    const businesses = jsonObject['businesses'];
+   findBusiness = true
+    while (findBusiness) {
+        num1 = Math.floor(Math.random() * 12)
+        bus1 = businesses[num1]
+        num2 = Math.floor(Math.random() * 12)
+        bus2 = businesses[num2]
+        num3 = Math.floor(Math.random() * 12)
+        bus3 = businesses[num3]
 
-    if (bus1.status == 'silver' || bus1.status == 'gold'){
-        let logo = document.querySelector('.spot-1-img');
-        let busName = document.querySelector('.spot-1-business');
-        let slogan = document.querySelector('.spot-1-slogan');
-        let phone = document.querySelector('.spot-1-phone');
-        let web = document.querySelector('.spot-1-web');
+        if (bus1.status == 'silver' || bus1.status == 'gold'){
+           displaySpotlight(bus1, spotlight1);
+        }
 
-        displaySpotlight(logo, busName, slogan, phone, web, spotlight1);
+        if (bus2.status == 'silver' || bus2.status == 'gold' && num2 != num1){
+            displaySpotlight(bus2, spotlight2);
+        }
+
+        if (bus3.status == 'silver' || bus3.status == 'gold' && num3 != num2 && num3 != num1){
+            displaySpotlight(bus3, spotlight2);
+        }
+
+        // stop the loop
+        findBusiness = false
     }
-
-    if (bus2.status == 'silver' || bus2.status == 'gold' && bus2.status != bus1){
-        let logo = document.querySelector('.spot-2-img');
-        let busName = document.querySelector('.spot-2-business');
-        let slogan = document.querySelector('.spot-2-slogan');
-        let phone = document.querySelector('.spot-2-phone');
-        let web = document.querySelector('.spot-2-web');
-
-        displaySpotlight(business, logo, busName, slogan, phone, web, spotlight2);
-    }
-
-    if (bus3.status == 'silver' || bus3.status == 'gold' && bus3.status != bus2 && bus3.status != bus1){
-        let logo = document.querySelector('.spot-3-img');
-        let busName = document.querySelector('.spot-3-business');
-        let slogan = document.querySelector('.spot-3-slogan');
-        let phone = document.querySelector('.spot-3-phone');
-        let web = document.querySelector('.spot-3-web');
-
-        displaySpotlight(business, logo, busName, slogan, phone, web, spotlight2);
-    }
-
 });
 
 
 
 
-function displaySpotlight (file, logo, businessName, slogan, phone, website, spotlightNum){
-        logo.setAttribute('src', file.logo);
-        logo.setAttribute('alt', `Logo for ${file.name}.`);
-
-        website.setAttribute('href', file.website);
-        website.setAttribute('target', 'blank');
-
-        businessName.textContent = `${file.name}`;
-        slogan.textContent = `${file.slogan}`
-        phone.textContent = `${file.phone}`;
-        website.textContent = `${file.website}`;
-
-        spotlightNum.appendChild(logo);
-        spotlightNum.appendChild(busName);
-        spotlightNum.appendChild(slogan)
-        spotlightNum.appendChild(phone);
-        spotlightNum.appendChild(website);
-
-        spotlights.appendChild(spotlightNum);
-
-    
-};
