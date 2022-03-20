@@ -242,6 +242,7 @@ picture{
 
 .join:hover, .overlay:hover{
     background-color: #0E5D1D;
+    cursor: pointer;
 }
 
 
