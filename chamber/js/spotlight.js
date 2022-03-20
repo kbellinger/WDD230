@@ -6,8 +6,8 @@ let spotligth3 = document.querySelector('.spotlight3');
 
 
 
-function displaySpotlight (business, spotlightNum){
-
+function displaySpotlight (business, id = ""){
+    let spotlight = document.createElement('div')
     let logo = document.createElement('img');
     let busName = document.createElement('h2');
     let slogan = document.createElement('p');
@@ -25,13 +25,17 @@ function displaySpotlight (business, spotlightNum){
     phone.textContent = `${business.phone}`;
     web.textContent = `${business.website}`;
 
-    spotlightNum.appendChild(logo);
-    spotlightNum.appendChild(busName);
-    spotlightNum.appendChild(slogan)
-    spotlightNum.appendChild(phone);
-    spotlightNum.appendChild(web);
+    spotlight.appendChild(logo);
+    spotlight.appendChild(busName);
+    spotlight.appendChild(slogan)
+    spotlight.appendChild(phone);
+    spotlight.appendChild(web);
 
-    spotlights.appendChild(spotlightNum);
+    if (id != ""){
+        spotlight.setAttribute('id', id)
+    }
+
+    spotlights.appendChild(spotlight);
 
 
 };
@@ -54,21 +58,21 @@ fetch(requestURL)
         num3 = Math.floor(Math.random() * 12)
         bus3 = businesses[num3]
 
-        if (bus1.status != 'silver' || bus1.status != 'gold'){
-           continue;
+        if (bus1.status == 'silver' || bus1.status == 'gold'){
+            displaySpotlight(bus1, "spotlight1");
         }
 
-        if (bus2.status != 'silver' || bus2.status != 'gold' || num2 == num1){
-            continue;
+        if (bus2.status == 'silver' || bus2.status == 'gold' && num2 != num1){
+            displaySpotlight(bus2, "spotlight2");
         }
 
-        if (bus3.status != 'silver' || bus3.status != 'gold' || num3 == num1 || num3 == num2){
-            continue;
+        if (bus3.status == 'silver' || bus3.status == 'gold' && num3 != num1 && num3 != num2){
+            displaySpotlight(bus3, "spotlight3");
         }
 
-        displaySpotlight(bus1, spotlight1);
-        displaySpotlight(bus2, spotlight2);
-        displaySpotlight(bus3, spotlight3);
+        
+        
+        
 
         // stop the loop
         findBusiness = false

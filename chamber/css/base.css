@@ -250,7 +250,7 @@ picture{
     padding:20px;
     background-color: #455D92;
 }
-.spotlight1, .spotlight2, .spotlight3{
+#spotlights div{
     border: 1px solid #455D92;
     margin-top: 20px;
     padding:20px 20px 40px 20px;
