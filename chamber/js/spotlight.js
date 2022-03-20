@@ -63,7 +63,7 @@ fetch(requestURL)
         }
 
         if (bus3.status != 'silver' || bus3.status != 'gold' || num3 == num1 || num3 == num2){
-            
+            continue;
         }
 
         displaySpotlight(bus1, spotlight1);

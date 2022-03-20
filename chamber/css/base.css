@@ -191,6 +191,11 @@ picture{
     padding:20px;
 
 }
+
+#weather hr{
+    width: 85%;
+}
+
  /* Temperature */
 #temp-par {
     font-size: 2.5em;
