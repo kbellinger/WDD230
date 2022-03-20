@@ -563,7 +563,8 @@ form label.top input:required:valid {
 }
 
 .contact-form {
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 8px 2px#777;
     padding: 20px;
 }
 
