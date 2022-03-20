@@ -248,11 +248,21 @@ picture{
 .spotlight1, .spotlight2, .spotlight3{
     border: 1px solid #455D92;
     margin-top: 20px;
-    padding:20px 40px 60px 20px;
+    padding:20px 20px 40px 20px;
     background-color: #455D92;
     color:white;
     text-align: center;
     box-shadow: 0 2px 15px rgb(19, 5, 73);
+}
+
+#spotlights img {
+    height: auto;
+    max-width: 150px;
+}
+
+#spotlights a {
+    color:#bee7de;
+    font-size: .8rem;
 }
 
 
@@ -316,6 +326,17 @@ footer div a:hover img{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.last-visit{
+    text-align: center;
+    background-color: #bee7de;
+    color: #445D92;
+    width:100%;
+    padding: 0.4em;  
+    margin-top: 0px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 1em;
 }
 
 .discover-main div{
@@ -427,10 +448,15 @@ form label.top input:required:valid {
 
 .main-direct button{
     padding: 10px;
-    background-color:  #455D92;
+    background-color:  #bdcbe7;
     border: none;
     border-radius: 4px;
     margin-left: 10px;
+}
+
+.main-direct button:hover{
+    cursor: pointer;
+    background-color: #8293b6;
 }
 
 #gridviewbtn img{
@@ -483,8 +509,13 @@ form label.top input:required:valid {
 }
 
 .list section:nth-child(odd){
-    background-color: #bee7de; 
+    background-color: #455D92; 
+    color: white;
  
+}
+
+.list section:nth-child(odd) a{
+    color: #bee7de;
 }
 
 .list:nth-child(even){

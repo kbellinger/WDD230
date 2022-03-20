@@ -17,8 +17,8 @@ function displaySpotlight (business, spotlightNum){
     logo.setAttribute('src', business.logo);
     logo.setAttribute('alt', `Logo for ${business.name}.`);
 
-    website.setAttribute('href', business.website);
-    website.setAttribute('target', 'blank');
+    web.setAttribute('href', business.website);
+    web.setAttribute('target', 'blank');
 
     busName.textContent = `${business.name}`;
     slogan.textContent = `${business.slogan}`
@@ -54,17 +54,21 @@ fetch(requestURL)
         num3 = Math.floor(Math.random() * 12)
         bus3 = businesses[num3]
 
-        if (bus1.status == 'silver' || bus1.status == 'gold'){
-           displaySpotlight(bus1, spotlight1);
+        if (bus1.status != 'silver' || bus1.status != 'gold'){
+           continue;
         }
 
-        if (bus2.status == 'silver' || bus2.status == 'gold' && num2 != num1){
-            displaySpotlight(bus2, spotlight2);
+        if (bus2.status != 'silver' || bus2.status != 'gold' || num2 == num1){
+            continue;
         }
 
-        if (bus3.status == 'silver' || bus3.status == 'gold' && num3 != num2 && num3 != num1){
-            displaySpotlight(bus3, spotlight2);
+        if (bus3.status != 'silver' || bus3.status != 'gold' || num3 == num1 || num3 == num2){
+            
         }
+
+        displaySpotlight(bus1, spotlight1);
+        displaySpotlight(bus2, spotlight2);
+        displaySpotlight(bus3, spotlight3);
 
         // stop the loop
         findBusiness = false
