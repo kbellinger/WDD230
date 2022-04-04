@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/base.css"/>
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylehseet"href="http://necolas.github.io/normalize.css/">
     <!-- FAVICON HERE -->
     <title>Home | Temple Inn & Suites</title>
 </head>
@@ -28,68 +29,78 @@
                 </ul>
 
                 <!-- make drop down for sign in -->
-                <a id="sign-inbtn"><img src="images/user-icon-60.png">Sign In</a>
+                <button id="sign-inbtn"><img src="images/social/user-icon-60.png"></button>  
             </div>
+            
         </nav>
         <!-- INFORMATION BANNER -->
         <div id="info-banner">
-            <p>Call or visit for more information</p>
-            <a>phone</a>
-            <a>map link</a>
-            <a href="https://www.facebook.com/" target="blank">facebook</a>
-            <a href="https://www.instagram.com/?hl=en" target="blank">instagram</a>
-            <a href="https://twitter.com/?lang=en">twitter</a>
+            <p class="statement">Call or visit for more information </p>
+            <p class="info-icons"><img src="images/social/icons8-phone-30.png" alt="phone icon" class="icon"> (801) 556-0914
+                <a href="https://goo.gl/maps/7z4jJGQmoEFy29Yi6" target="blank"><img src="images/social/map-pin-64.png" alt="map pin icon"> View map </a>
+                <a href="https://www.facebook.com/" target="blank"><img src="images/social/facebook-icon-lightblue-24.png" alt="facebook icon"></a>
+                <a href="https://www.instagram.com/?hl=en" target="blank"><img src="images/social/instagram-icon-lightblue-24.png" alt="instagram icon"></a>
+                <a href="https://twitter.com/?lang=en"><img src="images/social/twitter-lightblue-50.png" alt="twitter icon"></a></p>
+            
         </div>
         <!-- WEATHER ALERT BANNER -->
         <div id="weather-banner">
-
+            <p class="weather-alert"></p>
+            <button id="closebtn"><span>&#x2715;</span></button>
         </div>
 
     </header>
 
     <main>
         <!-- happy family traveling photo -->
-        <img alt="happy family traveling">
-        <div id="heroe-cta">
-            <h1>Temple Inn & Suites</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                consequat.</p>
-            <a href="reservation.html"><button class="book-now-btn">Book Now</button></a>
+        <img id="hero-img" src="images/family_temple_grounds1440_crop.jpg" alt="happy family in front of the temple">
+
+        <div id="hero-cta">
+            <section id="cta">
+                <h1>Temple Inn & Suites</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore 
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                    consequat.</p>
+                <a href="reservation.html"><button class="book-now-btn">Book Now</button></a>
+            </section>
         </div>
         <div id="temple-sum">
-            <img>
-            <h2>Oquirrh Mountain Temple</h2>
-            <p>The Oquirrh Mountain Temple is located in South Jordan, Utah and is the second temple in South Jordan...</p>
+            <img src="images/rsz_oquirrh_mountain_utah_temple.jpg" alt="oquirrh mountain temple">
+            <section id="temple-desc">
+                <h2>Oquirrh Mountain Temple</h2>
+                <p>The Oquirrh Mountain Temple was dedicated on August 21, 2009 and is located in South Jordan, Utah and is the second temple in the 
+                    city of South Jordan, the other being the Jordan River Temple. From the steps of the Oquirrh Mountain Temple can be seen 3 other temples; 
+                    Salt Lake City Temple, Jordan River Temple, and the Draper Temple.</p>
+            </section>
         </div>
-
+        <h2 class="offer">What we offer</h2>
         <div id="features">
-            <h2>What we offer</h2>
+            
             <section>
-                <img>
+                <img src="images/van.jpg" alt="van driving down road with trees">
                 <h3>Temple Shuttle</h3>
-                <p>The temple shuttle makes routine stops to all four temples from Tuesday to Saturday. Find out specific times on the <a href="services.html">service page.&#62;</a></p>
+                <p>The temple shuttle makes routine stops to all four temples from Tuesday to Saturday. Find out specific times on the <a href="services.html">service page.</a></p>
             </section>
             <section>
-                <img>
+                <img src="images/boys-fhc.jpeg" alt="boys looking at computer at family history center">
                 <h3>Family History Center</h3>
                 <p>We provide free access to a family history center that supports Family Search and printers for printing your own names for temple ordinance work.</p>
             </section>
             <section>
-                <img>
+                <img src="images/kitchenette3.jpg" alt="kitchenette">
                 <h3>Long-term Suites</h3>
                 <p>Staying for an extended period of time? We provide long-term accommodations which include suites with a kitchenette and laundry card. 
                     This is a great option for full-time Temple Missionaries. Visit the <a href="services.html">service page</a> or feel free to contact us for more information.</p>
             </section>
             <section>
-                <img>
+                <img src="images/rsz_change-room-blue.jpg">
                 <h3>Changing facilities</h3>
                 <p>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes.</p>
             </section>
             <section>
-                <img>
+                <img src="images/breakfast.jpg" alt="family emjoying breakfast">
                 <h3>Warm Breakfast</h3>
                 <p>Free, warm breakfast offered every morning.</p>
             </section>
@@ -162,6 +173,7 @@
             <p class="copyright"> &copy; 2022 Temple Inn & Suites | Kaylene Ellinger | <span id="last-update"><script src="js/last-modify.js"></script></span> | <a href="resources.html">Attributions</a></p>
         </div>
     </footer>
+    <script src="js/menu-button.js"></script>
     
 </body>
 </html>

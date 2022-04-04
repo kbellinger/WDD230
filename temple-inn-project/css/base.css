@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400&display=swap');
+*{
+    font-size: 16px;
+    
+}
+
+body{
+    margin: auto;
+    width: 100%;
+    min-width: 250px;
+    background-color: #E9E9E9;
+}
+
+h1,h2,h3 {
+    font-family: "Cinzel", serif;
+}
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size:2rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+p, a{
+    font-family: "Inter", sans-serif;
+
+}
+
+#logo{
+    width:200px;
+    grid-column: 2;
+    margin: auto;
+    padding: 0px 5rem;
+}
+
+/* MENU BUTTON */
+#hamburgerbtn{
+    background-color: transparent;
+    border: none;
+    font-size: 4rem;
+    color: #E9E9E9;
+    font-family: "Inter", sans-serif;
+    padding: 20px;
+    grid-column: 1;
+}
+
+/* NAVIGATION */
+
+#top-nav{
+    background-color: #192537;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #9C8B58;
+    width: 100%;
+    
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #e9e9e9;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    
+}
+
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: #E9E9E9;
+    color: #192537;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open{
+    display: block;
+}
+
+#hamburgerbtn span:nth-child(1) {display: block;}
+#hamburgerbtn span:nth-child(2) {display: none;}
+
+#hamburgerbtn.open span:nth-child(1) {display: none;}
+#hamburgerbtn.open span:nth-child(2) {display: block;}
+
+/* sign in button */
+#sign-inbtn img{
+    max-width: 1.5rem;
+}
+#sign-inbtn{
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    grid-column: 3;
+}
+
+#info-banner{
+
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statement{
+    padding-left: 50px;
+    
+}
+
+.info-icons{
+    padding-right: 50px;
+}
+
+.info-icons a {
+    color: black;
+    padding-left: 10px;
+}
+
+.info-icons img{
+    width: 24px;
+
+}
+
+/* WEATHER ALERT */
+
+#weather-banner{
+    background-color: #50a4a4;
+    color: #e9e9e9;
+    margin: auto;
+    padding: 10px;
+}
+
+#closebtn{
+    color: #E9E9E9;
+    background: transparent;
+    border: none;
+    
+}
+#hero-cta{
+    background-color: #e9e9e9;
+    margin: -1rem;
+    text-align: center;
+
+}
+
+#cta{
+    padding: 4rem;
+}
+
+.book-now-btn{
+    background-color: #9C8B58;
+    color: #E9E9E9;
+    border: none;
+    font-family: "Cinzel", serif;
+    font-size:1.5rem ;
+    padding: 1rem;
+}
+
+.book-now-btn:hover{
+    background-color: #192537;
+    cursor: pointer;
+}
+
+/* IMAGE BANNER */
+#hero-img{
+    width: 100%;
+
+}
+
+/* TEMPLE SUMMARY */
+#temple-sum img{
+    width: 100%;
+}
+
+#temple-sum{
+    position: relative;
+}
+
+#temple-desc{
+    position: absolute;
+    bottom: 5px;
+    padding: 40px;
+    background-color: #192537bd;
+    color: #E9E9E9;
+    width: 94%;
+}
+#features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    background-color: #E9E9E9;
+    text-align: center;
+}
+
+.offer {
+    background-color: #E9E9E9;
+    text-align: center;
+    margin: -5px auto;
+    padding: 30px;
+}
+
+#features img{
+    width: 100%;
+    
+}
+
+#features section{
+    background-color: #e9e9e9;
+    border: 2px solid #9C8B58;
+    margin: 1.2rem;
+    padding: 1rem;
+}
+#features a{
+    color: #192537;
+}
+
+#features a:hover{
+    color: #9C8B58;
+}
+
+/* COLOR SCHEME */
+/* BLUE: 192537 */
+/* TEAL: 50A4A4 */
+/* GOLD: 9C8B58 */
+/* WHITE: E9E9E9 */
