@@ -1,4 +1,15 @@
 @media only screen and (min-width: 64rem){
+    
+    #top-nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #logo{
+        grid-column: 1;
+    }
+
     nav ul#prim-nav{
         display: flex;
         margin-left: 0;
@@ -8,7 +19,13 @@
         background-color: #192537;
         align-items: center;
         color: #e9e9e9;
+        grid-column: 2;
+        grid-row: 1/2;
     }
+    #sign-inbtn{
+        grid-column: 3;
+    }
+
 
     nav ul li a{
         font-family: "Cinzel", serif;
@@ -30,5 +47,46 @@
         width: 80%;
         margin: 0px 12%;
 
+    }
+
+
+    /* WEATHER */
+    #weather-card{
+        width: 80%;
+        margin: auto;
+        padding:10px;
+    }
+
+    /* footer */
+
+    footer{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    #contact-info{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #contact-form{
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    #foot-logo{
+        width: 20rem;
+    }
+    #foot-icons #social{
+        margin: -100px 150px;
+    
+    }
+    #social a{
+        padding: 5px;
+    }
+    
+    .twitter-foot{
+        width: 24px;
+    
     }
 } 

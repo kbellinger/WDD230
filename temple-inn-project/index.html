@@ -20,6 +20,10 @@
                 <!-- clickable logo for access to home as well -->
                 <a href="index.html">
                 <img id="logo" src="images/Temple1050x600.png" alt="temple inn & suites logo"></a>
+                
+
+                <!-- make drop down for sign in -->
+                <button id="sign-inbtn"><img src="images/social/user-icon-60.png"></button>  
                 <ul id="prim-nav">
                     <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="reservation.html">Make a Reservation</a></li>
@@ -27,9 +31,6 @@
                     <li><a href="services.html">Services</a></li>
                     <li><a href="amenity.html">Amenities</a></li>
                 </ul>
-
-                <!-- make drop down for sign in -->
-                <button id="sign-inbtn"><img src="images/social/user-icon-60.png"></button>  
             </div>
             
         </nav>
@@ -45,7 +46,7 @@
         </div>
         <!-- WEATHER ALERT BANNER -->
         <div id="weather-banner">
-            <p class="weather-alert"></p>
+            <p class="weather-alert">Airport Weather Warning for northwest winds gusting to greater than 30 mph for the Salt Lake City International Airport.</p>
             <button id="closebtn"><span>&#x2715;</span></button>
         </div>
 
@@ -76,10 +77,13 @@
             </section>
         </div>
         <h2 class="offer">What we offer</h2>
+
         <div id="features">
             
             <section>
-                <img src="images/van.jpg" alt="van driving down road with trees">
+                <picture>
+                    <img src="images/van.jpg" alt="van driving down road with trees">
+                </picture>  
                 <h3>Temple Shuttle</h3>
                 <p>The temple shuttle makes routine stops to all four temples from Tuesday to Saturday. Find out specific times on the <a href="services.html">service page.</a></p>
             </section>
@@ -105,34 +109,35 @@
                 <p>Free, warm breakfast offered every morning.</p>
             </section>
         </div>
+
         <div id="weather-card">
             <section id="current-weather">
                 <h4>Current Weather</h4>
-                <p id="cur-temp"><span>&deg;F</span></p>
+                <p id="cur-temp-par"><span id="cur-temp"></span><span id="cur-f">&deg;F</span></p>
                 <p id="cur-condition"></p>
-                <p id="cur-humidity"></p>
+                <p ><span id="cur-humidity"></span><span>% Humidity</span></p>
                 <img id="cur-weather-icon">
             </section>
             <section id="tom-weather">
                 <h4>Tomorrow</h4>
-                <p id="tom-temp"><span>&deg;F</span></p>
-                <p id="tom-condition"></p>
-                <p id="tom-humidity"></p>
-                <img id="tom-weather-icon">
+                <p ><span id="tom-temp">49</span><span id="tom-f">&deg;F</span></p>
+                <p id="tom-condition">Clear Skies</p>
+                <p ><span id="tom-humidity">54</span><span>% Humidity</span></p>
+                <img id="tom-weather-icon" alt="Clear Skies">
             </section>
             <section id="weather-2">
-                <h4 id="day2"></h4>
-                <p id="day2-temp"><span>&deg;F</span></p>
-                <p id="day2-condition"></p>
-                <p id="day2-humidity"></p>
-                <img id="day2-weather-icon">
+                <h4 id="day2">Thursday</h4>
+                <p > <span id="day2-temp">63</span><span id="day2-f">&deg;F</span></p>
+                <p id="day2-condition">Clear Skies</p>
+                <p ><span id="day2-humidity">46</span><span>% Humidity</span></p>
+                <img id="day2-weather-icon" alt="Clear Skies">
             </section>
             <section id="weather-3">
-                <h4 id="day3"></h4>
-                <p id="day3-temp"><span>&deg;F</span></p>
-                <p id="day3-condition"></p>
-                <p id="day3-humidity"></p>
-                <img id="day3-weather-icon">
+                <h4 id="day3">Friday</h4>
+                <p ><span id="day3-temp">73</span><span id="day3-f">&deg;F</span></p>
+                <p id="day3-condition">Few Clouds</p>
+                <p ><span id="day3-humidity">38</span><span>% Humidity</span></p>
+                <img id="day3-weather-icon" alt="Few Clouds">
             </section>
         </div>  
     
@@ -141,7 +146,7 @@
     <footer>
         <!-- logo -->
         <div id="foot-icons">
-            <img id="foot-logo" src="images/temple-logo-trans-back.png" alt="temple inn and suites logo, lotus only">
+            <img id="foot-logo" src="images/logo-only-larg-trans.png" alt="temple inn and suites logo, lotus only">
             <!-- social -->
             <section id="social">
                 <a href="https://www.facebook.com/" target="blank"><img src="images/social/facebook-icon-gold-24.png" alt="facebook icon"></a>
@@ -179,6 +184,8 @@
         </div>
     </footer>
     <script src="js/menu-button.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/alert-close.js"></script>
     
 </body>
 </html>

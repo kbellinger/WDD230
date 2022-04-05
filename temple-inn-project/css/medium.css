@@ -1,8 +1,62 @@
 @media only screen and (min-width: 35rem){
     
 
+    /* TEMPLE SUM */
+    #temple-desc{
+        padding:40px;
+        width:94%;
+    }
+
+    #features{
+        margin-bottom: 4rem;
+    }
+
+
+    /* WEATHER */
+    #weather-card{
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    #current-weather{
+        grid-column: 1;
+        margin-bottom: 10px;
+        border-right: 2px solid #E9E9E9;
+        border-bottom: none;
+    }
+
     /* FOOTER */
+    footer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #contact-info{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #contact-form{
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    #foot-logo{
+        grid-column: 1;
+        grid-row: 1;
+        width: 20rem;
+    }
+    #foot-icons #social{
+        margin: -100px 150px;
     
+    }
+    #social a{
+        padding: 5px;
+    }
+    
+    .twitter-foot{
+        width: 24px;
+    
+    }
 
     
 }
