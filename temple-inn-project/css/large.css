@@ -26,9 +26,9 @@
         display: none;
     }
 
-    /* #hero-img{ */
-        /* width: 80%;
-        margin: 0px 12%; */
+    #hero-img{
+        width: 80%;
+        margin: 0px 12%;
 
-    /* } */
-}
+    }
+} 

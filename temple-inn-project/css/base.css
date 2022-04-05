@@ -230,6 +230,104 @@ nav ul.open{
     color: #9C8B58;
 }
 
+/* WEATHER */
+
+
+/* FOOTER */
+footer{
+    background-color: #192537;
+    color: #E9E9E9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+
+#foot-logo{
+    width: 25rem;
+}
+#foot-icons #social{
+    margin: -100px 150px;
+
+}
+#social a{
+    padding: 5px;
+}
+
+.twitter-foot{
+    width: 24px;
+
+}
+
+
+
+#contact-info a img{
+    width: 90%;
+    -webkit-filter: grayscale(80%);
+	filter: grayscale(80%);
+}
+
+#contact-info a:hover img{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#contact-form{
+    margin-right:40px;
+    
+}
+
+#contact-form label{
+    font-family: "Inter", sans-serif;
+}
+
+#contact-form label.top input, form label.top textarea{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #E9E9E9;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+#contact-form .submitBtn{
+    background-color: #9C8B58;
+    color: #E9E9E9;
+    border: none;
+    font-family: "Cinzel", serif;
+    font-size:1rem ;
+    padding: 1rem;
+}
+
+#contact-form .submitBtn:hover{
+    background-color: #E9E9E9;
+    color: #9C8B58;
+    cursor: pointer;
+}
+
+#base-footer{
+    grid-column: 1/4;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#base-footer a{
+    color: #E9E9E9;
+}
+#base-footer a:hover{
+    color: #9C8B58;
+}
+
+
+
 /* COLOR SCHEME */
 /* BLUE: 192537 */
 /* TEAL: 50A4A4 */
