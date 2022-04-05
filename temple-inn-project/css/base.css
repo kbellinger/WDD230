@@ -9,6 +9,7 @@ body{
     width: 100%;
     min-width: 250px;
     background-color: #E9E9E9;
+
 }
 
 h1,h2,h3 {
@@ -29,6 +30,9 @@ h3{
 p, a{
     font-family: "Inter", sans-serif;
 
+}
+main{
+    text-align: center;
 }
 
 

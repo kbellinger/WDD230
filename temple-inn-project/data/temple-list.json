@@ -1,0 +1,43 @@
+{
+    "temples": [
+        {
+            "name":"Daper Utah Temple",
+            "address":"14065 Canyon Vista Ln, Draper UT 84020-5626, United States",
+            "phone":"801-576-4240",
+            "email":"drape-off@churchofjesuschrist.org",
+            "services":"Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":"Announced October 2, 2004. Dedicated March 20 2009",
+            "schedule":"https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closure":"Monday, 29 August 2022 - Monday, 12 September 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022"
+        },{
+            "name":"Jordan River Utah Temple",
+            "address":"10200 S Temple Drive, South Jordan UT 84095-8814, United States",
+            "phone":"801-254-3003",
+            "email":"jorda-off@churchofjesuschrist.org",
+            "services":"Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":"Announced Februaru 3, 1978. Dedicated November 16, 1981. Rededicated May 20, 2018",
+            "schedule":"https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closure":"Monday, 16 May 2022 - Monday, 30 May 2022, Saturday, 1 October 2022, Monday, 31 October 2022 - Monday, 14 November 2022, Wednesday, 23 November 2022 (Limited Operations), Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022 (Limited Operations)"
+        },
+        {
+            "name":"Oquirrh Mountain Utah Temple",
+            "address":"11022 S 4000 W, South Jordan UT 84009-5797, United States",
+            "phone":"801-878-3800",
+            "email":"oquir-off@churchofjesuschrist.org",
+            "services":"No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":"Announced October 1, 2005. Dedicated August 21, 2009",
+            "schedule":"https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "closure":"TEMPLE CURRENTLY CLOSED. Monday, 14 March 2022 - Monday, 9 May 2022, Saturday, 23 July 2022, Monday, 12 September 2022 - Monday, 26 September 2022, Saturday, 1 October 2022, Wednesday, 23 November 2022 (Limited Operations), Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022"
+        },
+        {
+            "name":"Salt Lake Temple",
+            "address":"50 W North Temple St, Salt Lake City UT 84150-9709, United States",
+            "phone":"801-240-2640",
+            "email":"saltl-off@churchofjesuschrist.org",
+            "services":"Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":"Announced July 28, 1847. Dedicated April 6, 1893.",
+            "schedule":"N/A",
+            "closure":"TEMPLE CURRENTLY CLOSED DURING RENOVATION"
+        }
+    ]
+}
