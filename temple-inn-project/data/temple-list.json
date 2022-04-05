@@ -2,6 +2,7 @@
     "temples": [
         {
             "name":"Daper Utah Temple",
+            "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/draper-utah/1200x1200/valley-view-from-draper-utah-temple-830454-wallpaper.jpg",
             "address":"14065 Canyon Vista Ln, Draper UT 84020-5626, United States",
             "phone":"801-576-4240",
             "email":"drape-off@churchofjesuschrist.org",
@@ -11,6 +12,7 @@
             "closure":"Monday, 29 August 2022 - Monday, 12 September 2022 Saturday, 1 October 2022 Wednesday, 23 November 2022 (Limited Operations) Thursday, 24 November 2022 Saturday, 24 December 2022 Saturday, 31 December 2022"
         },{
             "name":"Jordan River Utah Temple",
+            "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/jordan-river-utah/1200x1920/jordan-river-temple-lds-996672-wallpaper.jpg",
             "address":"10200 S Temple Drive, South Jordan UT 84095-8814, United States",
             "phone":"801-254-3003",
             "email":"jorda-off@churchofjesuschrist.org",
@@ -21,6 +23,7 @@
         },
         {
             "name":"Oquirrh Mountain Utah Temple",
+            "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/1200x1920/slctemple8.jpg",
             "address":"11022 S 4000 W, South Jordan UT 84009-5797, United States",
             "phone":"801-878-3800",
             "email":"oquir-off@churchofjesuschrist.org",
@@ -31,6 +34,7 @@
         },
         {
             "name":"Salt Lake Temple",
+            "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/oquirrh-mountain-utah/1200x1920/oquirrh-mountain-utah-temple-spring-1144020-wallpaper.jpg",
             "address":"50 W North Temple St, Salt Lake City UT 84150-9709, United States",
             "phone":"801-240-2640",
             "email":"saltl-off@churchofjesuschrist.org",
@@ -41,3 +45,4 @@
         }
     ]
 }
+
