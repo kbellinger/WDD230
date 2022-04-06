@@ -413,22 +413,123 @@ footer{
 
 
 /*---------------- TEMPLE PAGE ----------------- */
-#temple-cards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+
+.announcements{
+    box-shadow: 0px 0px 8px 2px rgb(194, 191, 191);
+    width: 85%;
+    margin: auto;
+    padding: 10px 5px;
+    border-left: 10px solid #50a4a4;
 }
 
-#temple-cards section{
+#temple-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 4rem;
+}
+
+#temple-cards #card{
     margin: 1rem;
     padding:12px 10px 10px 10px;
-    box-shadow: 0px 0px 8px 2px#777;
+    box-shadow: 0px 0px 8px 2px rgb(194, 191, 191);
 }
 
 #temple-cards img{
-    width: auto;
-    max-width: 200px;
+    width: 100%;
+    padding: 0px;
+
 
 }
+
+#temple-cards a{
+    color: #192537;
+}
+
+.sched-btn{
+    background-color: #192537;
+    color: #E9E9E9;
+    border: none;
+    font-family: "Cinzel", serif;
+    font-size:1rem ;
+    padding: 1rem;
+}
+
+.sched-btn:hover{
+    background-color: #9C8B58;
+    cursor: pointer;
+}
+
+#info{
+    padding:12px 10px 10px 10px;
+    border-top: 2px solid #9C8B58;
+    width: 90%;
+    margin: 40px 0px;
+    text-align: left;
+}
+
+
+/* .flip-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+} */
+
+/* #dropdowns{
+    /* display: inline-block; */
+    /* position: relative; **\
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin:-100px 4rem 4rem 4rem;
+} */
+
+
+
+/* .info-draper, .info-jr, .info-om, .info-slc{
+    display: none;
+    /* position: absolute; *\
+    background: #50a4a4;
+    color: white;
+    width: 300px;
+    padding: 12px 10px 10px 10px;
+} */
+
+/* .info-draper{
+    grid-column: 1;
+}
+
+.info-jr{
+    grid-column: 2;
+}
+
+.info-om{
+    grid-column: 3;
+}
+
+.info-slc{
+    grid-column: 4;
+}
+
+.dropbtn{
+    background: transparent;
+    border: none;
+    font-family: "Inter", sans-serif;
+    color: #50a4a4;
+    grid-row: 1;
+}
+
+.dropbtn:hover, .dropbtn:focus{
+    color: #192537;
+    cursor: pointer;
+
+}
+
+.show{
+    display: block;
+} */
 
 
 
