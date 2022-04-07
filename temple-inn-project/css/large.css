@@ -89,4 +89,10 @@
         width: 24px;
     
     }
+
+    /* ------- RESERVATION PAGE -------- */
+    .form form{
+        width: 40%;
+        margin: auto;
+    }
 } 

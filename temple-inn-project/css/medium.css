@@ -1,5 +1,19 @@
 @media only screen and (min-width: 35rem){
-    
+    #logo{
+        width:200px;
+        /* grid-column: 2; */
+        margin: auto;
+        padding: 0px 5rem;
+    }
+
+    #top-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #hamburgerbtn{
+        margin-left: 2.5rem;
+    }
 
     /* TEMPLE SUM */
     #temple-desc{
@@ -58,5 +72,9 @@
     
     }
 
+    /* ------- RESERVATION PAGE -------- */
+    form{
+        width: 75%;
+    }
     
 }

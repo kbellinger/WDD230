@@ -38,10 +38,10 @@ main{
 
 
 #logo{
-    width:200px;
+    width:170px;
     /* grid-column: 2; */
     margin: auto;
-    padding: 0px 5rem;
+    padding: 0px 3rem;
 }
 
 /* MENU BUTTON */
@@ -530,6 +530,139 @@ footer{
 .show{
     display: block;
 } */
+
+
+/* -------------- RESERVATION PAGE ---------------- */
+.form img{
+    width: 100%;
+}
+
+.form form{
+    margin: auto;
+    width:80%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+
+
+.form form fieldset{
+    border: 2px solid #9C8B58;
+    /* box-shadow: 0px 0px 8px 2px #b6ad93; */
+    border-radius: 3px;
+    padding: .5rem 2%;
+    align-content: center;
+
+}
+
+.form form legend{
+    color: #9C8B58;
+    margin:0 1rem;
+    padding: 0 .5rem;
+    font-weight: 600;
+    font-family: "Cinzel", serif;
+}
+
+.form form label{
+    display: block;
+    padding-top: 2.2rem;
+    color: #192537;
+    font-size: .8rem;
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 2rem;
+
+}
+
+.form form label input, .form form label select{
+    
+    display: block;
+    font-size: 1rem;
+    border: none;
+    border-bottom: solid 3px #b1afaa;
+    padding: .5rem;
+    color: #192537;
+    width: 90%;
+    max-width: 20rem;
+    background-color: #E9E9E9;
+    margin-left:-.3rem;
+    /* margin: auto; */
+}
+
+.form form label textarea{
+    display: block;
+    font-size: 1rem;
+    border: none;
+    border: solid 3px #9C8B58;
+    padding: .5rem;
+    color: #192537;
+    width: 90%;
+    max-width: 20rem;
+    background-color: #E9E9E9;
+    margin-left: -0.3rem;
+}
+
+
+
+#start-date, #end-date{
+    width: 35%;
+    font-size: 1rem;
+    border: none;
+    border-bottom: solid 3px #b1afaa;
+    padding: .5rem;
+    color: #9C8B58;
+    max-width: 20rem;
+    background-color: #E9E9E9;
+
+}
+
+#start-date{
+    margin-left: -3.5rem;
+}
+
+#state, #country{
+    margin-bottom: 2rem;
+    /* display: inline; */
+}
+
+.form form input.submitBtn{
+    border: none;
+    background-color: #192537;
+    color: #E9E9E9;
+    font-family: "Cinzel", serif;
+    font-size:1rem ;
+    padding: .75rem 1.5rem;
+    margin: 1.7rem 0 2rem 2.6rem;
+    width: 90%;
+    max-width: 20rem;
+}
+
+.form form input.submitBtn:hover{
+    background-color: #9C8B58;
+    cursor: pointer;
+}
+
+.form form label input:focus{
+    outline: none;
+    border-bottom: 3px solid #9C8B58;
+}
+
+.form label input:required:valid {
+    border-bottom: 3px solid #9C8B58;
+
+}
+
+#confirm{
+
+    margin: 50px auto;
+    width: 50%;
+    box-shadow: 0px 0px 8px 2px rgb(194, 191, 191);
+    border-radius: 10px;
+    border-left: 16px solid #50a4a4;
+    padding: 20px;
+}
 
 
 

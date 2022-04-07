@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luxury hotel rooms and suites. Amenities and services for every need and desire. Come stay at Temple Inn & Suites!">
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylehseet"href="http://necolas.github.io/normalize.css/">
+    <!-- FAVICON HERE -->
+    <title>Home | Temple Inn & Suites</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="top-nav">
+                <button id="hamburgerbtn"><span>&#9776;</span><span>&#x2715;</span></button>
+                <!-- clickable logo for access to home as well -->
+                <a href="index.html">
+                <img id="logo" src="images/Temple1050x600.png" alt="temple inn & suites logo"></a>
+                
+
+                <!-- make drop down for sign in -->
+                <button id="sign-inbtn"><img src="images/social/user-icon-60.png"></button>  
+                <ul id="prim-nav">
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a class="active" href="reservation.html">Make a Reservation</a></li>
+                    <li><a href="temple.html">Temples</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="amenity.html">Amenities</a></li>
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main >
+        <div id="confirm">
+            <h2>Confirmation</h2>
+            <p>A confirmation email will be sent to you shortly. <br>
+            Thank you for choosing Temple Inn & Suites!</p>
+        </div>  
+    </main>
+
+    <footer>
+        <!-- logo -->
+        <div id="foot-icons">
+            <img id="foot-logo" src="images/logo-only-larg-trans.png" alt="temple inn and suites logo, lotus only">
+            <!-- social -->
+            <section id="social">
+                <a href="https://www.facebook.com/" target="blank"><img src="images/social/facebook-icon-gold-24.png" alt="facebook icon"></a>
+                <a href="https://www.instagram.com/?hl=en" target="blank"><img src="images/social/instagram-icon-gold-24.png" alt="instagram icon"></a>
+                <a href="https://twitter.com/?lang=en"><img class="twitter-foot" src="images/social/twitter-gold-50.png" alt="twitter icon"></a>
+            </section>
+            <!-- map and contact info -->
+        </div>
+        <div id="contact-info">
+            <h2>Contact Us</h2>
+            <p>(240) 891-2476 <em>Headquarters</em>
+            <br>(801) 556-0914 <em>Utah Front Desk</em></p>
+            <p><strong>Temple Inn & Suites Main Headquarters</strong>
+                <br> 4800 Montgomery Ln <br>Bethesda, MD 20814
+            </p>
+            <a href="https://goo.gl/maps/7z4jJGQmoEFy29Yi6" target="blank">
+                <img src="images/temple-inn-hq-map.png" alt="map to temple inn hq">
+            </a>
+        </div>
+        <!-- contact form -->
+        <div id="contact-form">
+            <h2>Send Us a Message</h2>
+            <form method="get">
+                
+                    <label class="top">Name * <input type="text" name="fname" required></label>
+                    <label class="top">Email * <input type="email" name="email" required></label>
+                    <label class="top">Message * <textarea type="text" name="message" rows="4" cols="50" required></textarea></label>
+                
+                <input class="submitBtn" type="submit" value="Send Message">
+            </form>
+        </div>
+        <!-- last mod and resource link -->
+        <div id="base-footer">
+            <p class="copyright"> &copy; 2022 Temple Inn & Suites | Kaylene Ellinger | <span id="last-update"><script src="js/last-modify.js"></script></span> | <a href="resources.html" target="blank">Attributions</a></p>
+        </div>
+    </footer>
+    <script src="js/menu-button.js"></script>
+
+    
+</body>
+</html>
